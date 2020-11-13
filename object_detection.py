@@ -11,8 +11,6 @@ from preprocess import letterbox_image
 from darknet import Darknet
 from imutils.video import WebcamVideoStream,FPS
 # from camera import write
-import win32com.client as wincl       #### Python's Text-to-speech (tts) engine for windows, multiprocessing
-speak = wincl.Dispatch("SAPI.SpVoice")    #### This initiates the tts engine
 
 torch.multiprocessing.set_start_method('spawn', force=True)
 
